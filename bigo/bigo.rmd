@@ -1,0 +1,24 @@
+---
+title: Big O
+author: Adrien Tremblay
+output: pdf_document
+---
+
+# Big-O notation
+
+Big-O gives an upper bound on the complexity in the **worst** case to quantify performance as input size becomes arbitrarily large.
+
+* Constant Time: **O(1)**
+* Logarithmic Time: **O(log(n))**
+* Linear Time: **O(n)**
+* Linearithnic Time: **O(nlog(n))**
+* Quadric Time: **O(n^2)**
+* Cubic Time: **O(n^3)**
+* Exponential Time: **O(b^n)**, b > 1
+* Factorial Time: **O(n!)**
+
+# Big-O properties
+
+* O(n+c) = O(n)
+* O(cn)A = O(n), c > 0
+* A function f(n) will be simplified to only the worst factor.
