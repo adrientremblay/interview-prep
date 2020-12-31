@@ -21,7 +21,6 @@ def quick_sort(list):
         if item_from_left >= item_from_right:
             break
 
-#        print("swapping ", list[item_from_left], list[item_from_right])
         list[item_from_left], list[item_from_right] = list[item_from_right], list[item_from_left]
 
     # swapping item_from_right with pivot
@@ -29,7 +28,7 @@ def quick_sort(list):
     pivot = item_from_left
 
     # performing algo on left and right
-    return quick_sort(list[:pivot]) + quick_sort(list[pivot:])
+    return quick_sort(list[:pivot]) + [list[pivot]] +  quick_sort(list[pivot+1:])
 
-list = [4,6,2,1,5,3,8,7,9]
-print(quick_sort(list))
+print(quick_sort([4,6,2,1,5,3,8,7,9]))
+print(quick_sort([2,2,1]))
