@@ -35,3 +35,24 @@ def is_unique_sf(string: str):
 print(is_unique_sf("banana")) # False
 print(is_unique_sf("cake")) # True
 print(is_unique_sf("")) # True
+
+# Bit Vector solution
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+def is_unique_bv(string: str):
+    history = 0
+
+    i = 0
+    while(i < len(string)):
+        val = ord(string[i]) - ord('a')
+        if (history & (1 << val)) > 0:
+            return False
+        history = history | (1 << val)
+        i+=1
+
+    return True
+
+print(is_unique_bv("banana")) # False
+print(is_unique_bv("cake")) # True
+print(is_unique_bv("")) # True
