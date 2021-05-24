@@ -1,0 +1,7 @@
+C:\Users\adrie\Documents\GitHub\interview-prep\csharp\Tutorial\Tutorial\Tutorial\bin\Debug\Tutorial.exe.config
+C:\Users\adrie\Documents\GitHub\interview-prep\csharp\Tutorial\Tutorial\Tutorial\bin\Debug\Tutorial.exe
+C:\Users\adrie\Documents\GitHub\interview-prep\csharp\Tutorial\Tutorial\Tutorial\bin\Debug\Tutorial.pdb
+C:\Users\adrie\Documents\GitHub\interview-prep\csharp\Tutorial\Tutorial\Tutorial\obj\Debug\Tutorial.csprojAssemblyReference.cache
+C:\Users\adrie\Documents\GitHub\interview-prep\csharp\Tutorial\Tutorial\Tutorial\obj\Debug\Tutorial.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Documents\GitHub\interview-prep\csharp\Tutorial\Tutorial\Tutorial\obj\Debug\Tutorial.exe
+C:\Users\adrie\Documents\GitHub\interview-prep\csharp\Tutorial\Tutorial\Tutorial\obj\Debug\Tutorial.pdb
