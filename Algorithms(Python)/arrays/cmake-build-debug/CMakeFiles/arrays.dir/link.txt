@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/arrays.dir/meme.o -o arrays.exe -Wl,--out-implib,libarrays.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
