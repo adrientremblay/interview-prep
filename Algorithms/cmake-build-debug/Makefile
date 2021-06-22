@@ -142,6 +142,33 @@ Algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
+ZeroMatrix.o: ZeroMatrix.cpp.o
+
+.PHONY : ZeroMatrix.o
+
+# target to build an object file
+ZeroMatrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o
+.PHONY : ZeroMatrix.cpp.o
+
+ZeroMatrix.i: ZeroMatrix.cpp.i
+
+.PHONY : ZeroMatrix.i
+
+# target to preprocess a source file
+ZeroMatrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.i
+.PHONY : ZeroMatrix.cpp.i
+
+ZeroMatrix.s: ZeroMatrix.cpp.s
+
+.PHONY : ZeroMatrix.s
+
+# target to generate assembly for a file
+ZeroMatrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.s
+.PHONY : ZeroMatrix.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithms"
+	@echo "... ZeroMatrix.o"
+	@echo "... ZeroMatrix.i"
+	@echo "... ZeroMatrix.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

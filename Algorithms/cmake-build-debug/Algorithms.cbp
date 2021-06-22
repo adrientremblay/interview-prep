@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.cpp">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.h">
+			<Option target="Algorithms"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/main.cpp">
 			<Option target="Algorithms"/>
 		</Unit>

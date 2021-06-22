@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.cpp
+ZeroMatrix.h
+/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.h
+
+/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.h
+

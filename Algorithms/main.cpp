@@ -1,6 +1,12 @@
 #include <iostream>
+#include "ZeroMatrix.h"
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    cout << "Hello, World!" << endl;
+
+    ZeroMatrix z;
+    cout << z.rotate();
+
     return 0;
 }
