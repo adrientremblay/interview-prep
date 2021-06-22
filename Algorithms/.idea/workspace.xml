@@ -38,6 +38,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Algorithms" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms" TARGET_NAME="Algorithms" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms" RUN_TARGET_NAME="Algorithms">
@@ -65,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624383722893</updated>
       <workItem from="1624383725704" duration="2711000" />
+      <workItem from="1624395620870" duration="1584000" />
     </task>
     <servers />
   </component>

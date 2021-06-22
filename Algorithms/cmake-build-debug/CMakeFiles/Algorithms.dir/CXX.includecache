@@ -7,8 +7,16 @@
 #IncludeRegexTransform: 
 
 /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.cpp
+iostream
+-
 ZeroMatrix.h
 /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.h
+vector
+-
+bits/stdc++.h
+-
 
 /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.h
+vector
+-
 
