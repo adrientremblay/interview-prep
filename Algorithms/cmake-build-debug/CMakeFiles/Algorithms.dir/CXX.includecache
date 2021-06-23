@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/adrien/CLionProjects/interview-prep/Algorithms/ZeroMatrix.cpp
+/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.h
+vector
+-
+
+/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/main.cpp
 iostream
 -
 ZeroMatrix.h
-/home/adrien/CLionProjects/interview-prep/Algorithms/ZeroMatrix.h
-vector
--
-bits/stdc++.h
--
-
-/home/adrien/CLionProjects/interview-prep/Algorithms/ZeroMatrix.h
+/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.h
 vector
 -
 
