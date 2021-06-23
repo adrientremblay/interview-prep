@@ -69,6 +69,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -77,6 +83,7 @@
     <list>
       <item itemvalue="CMake Application.Algorithms" />
       <item itemvalue="Catch.Factorials are computed" />
+      <item itemvalue="CTest Application.All CTest" />
     </list>
     <recent_temporary>
       <list>
@@ -94,7 +101,7 @@
       <updated>1624383722893</updated>
       <workItem from="1624383725704" duration="2711000" />
       <workItem from="1624395620870" duration="1584000" />
-      <workItem from="1624472509207" duration="3001000" />
+      <workItem from="1624472509207" duration="3987000" />
     </task>
     <servers />
   </component>

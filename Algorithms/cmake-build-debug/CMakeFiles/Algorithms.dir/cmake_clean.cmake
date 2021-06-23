@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "Algorithms.exe"
   "Algorithms.pdb"
-  "CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o"
-  "CMakeFiles/Algorithms.dir/main.cpp.o"
+  "Algorithms[1]_tests.cmake"
+  "CMakeFiles/Algorithms.dir/zero_matrix_test.cpp.o"
   "libAlgorithms.dll.a"
 )
 

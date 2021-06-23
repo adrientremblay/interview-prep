@@ -4,17 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.cpp" "/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o"
-  "/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/main.cpp" "/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/main.cpp.o"
+  "/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/zero_matrix_test.cpp" "/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/zero_matrix_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "_deps/googletest-src/googletest/include"
+  "_deps/googletest-src/googletest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

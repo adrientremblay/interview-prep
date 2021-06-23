@@ -1,0 +1,5 @@
+if(EXISTS "/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/Algorithms[1]_tests.cmake")
+  include("/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/Algorithms[1]_tests.cmake")
+else()
+  add_test(Algorithms_NOT_BUILT Algorithms_NOT_BUILT)
+endif()

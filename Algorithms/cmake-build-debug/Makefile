@@ -143,6 +143,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/cygdrive/c/Users/atremblay/AppData/Local/JetBrains/CLion2021.1/cygwin_cmake/bin/ctest.exe --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/CMakeFiles /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug//CMakeFiles/progress.marks
@@ -240,59 +251,32 @@ gtest/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-ZeroMatrix.o: ZeroMatrix.cpp.o
+zero_matrix_test.o: zero_matrix_test.cpp.o
 
-.PHONY : ZeroMatrix.o
-
-# target to build an object file
-ZeroMatrix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o
-.PHONY : ZeroMatrix.cpp.o
-
-ZeroMatrix.i: ZeroMatrix.cpp.i
-
-.PHONY : ZeroMatrix.i
-
-# target to preprocess a source file
-ZeroMatrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.i
-.PHONY : ZeroMatrix.cpp.i
-
-ZeroMatrix.s: ZeroMatrix.cpp.s
-
-.PHONY : ZeroMatrix.s
-
-# target to generate assembly for a file
-ZeroMatrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.s
-.PHONY : ZeroMatrix.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : zero_matrix_test.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/main.cpp.o
-.PHONY : main.cpp.o
+zero_matrix_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/zero_matrix_test.cpp.o
+.PHONY : zero_matrix_test.cpp.o
 
-main.i: main.cpp.i
+zero_matrix_test.i: zero_matrix_test.cpp.i
 
-.PHONY : main.i
+.PHONY : zero_matrix_test.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/main.cpp.i
-.PHONY : main.cpp.i
+zero_matrix_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/zero_matrix_test.cpp.i
+.PHONY : zero_matrix_test.cpp.i
 
-main.s: main.cpp.s
+zero_matrix_test.s: zero_matrix_test.cpp.s
 
-.PHONY : main.s
+.PHONY : zero_matrix_test.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/main.cpp.s
-.PHONY : main.cpp.s
+zero_matrix_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/zero_matrix_test.cpp.s
+.PHONY : zero_matrix_test.cpp.s
 
 # Help Target
 help:
@@ -306,17 +290,15 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... Algorithms"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... ZeroMatrix.o"
-	@echo "... ZeroMatrix.i"
-	@echo "... ZeroMatrix.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... zero_matrix_test.o"
+	@echo "... zero_matrix_test.i"
+	@echo "... zero_matrix_test.s"
 .PHONY : help
 
 
