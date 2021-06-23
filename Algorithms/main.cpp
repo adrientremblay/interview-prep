@@ -15,7 +15,7 @@ int main() {
     };
 
     ZeroMatrix z;
-    printMatrix(z.rotate(matrix));
+    printMatrix(z.hashSolution(matrix));
 
     return 0;
 }

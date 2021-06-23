@@ -1,14 +1,16 @@
-//
-// Created by atremblay on 6/22/2021.
-//
-
 #include <iostream>
 #include "ZeroMatrix.h"
 #include <vector>
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<vector<int>> ZeroMatrix::rotate(vector<vector<int>> matrix) {
+/**
+ * The hash set solution to the problem. Iterate through the matrix, making note of all zeros. Record the column and row index in two
+ * hash sets. Then iterate through these sets and zero the rows and columns.
+ * Time complexity: M*N
+ * Space complexity: M + N ???
+ */
+vector<vector<int>> ZeroMatrix::hashSolution(vector<vector<int>> matrix) {
     unordered_set<int> rowsToZero;
     unordered_set<int> colsToZero;
 
@@ -22,10 +24,10 @@ vector<vector<int>> ZeroMatrix::rotate(vector<vector<int>> matrix) {
         }
     }
 
-    int n = matrix.size();
+    int m = matrix.size();
     // zeroing the rows
     for (int rowIndex : rowsToZero) {
-        matrix.at(rowIndex).assign(n, 0);
+        matrix.at(rowIndex).assign(m, 0);
     }
 
     // zeroing the cols
