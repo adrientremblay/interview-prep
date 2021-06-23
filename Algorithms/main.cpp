@@ -3,18 +3,28 @@
 #include <vector>
 using namespace std;
 
+void printMatrix (vector<vector<int>> matrix);
+
 int main() {
     cout << "Hello, World!" << endl;
 
-    vector<vector<int>> vect
-            {
-                    {0, 0, 0},
-                    {4, 5, 6},
-                    {7, 0, 9}
-            };
+    vector<vector<int>> matrix {
+            {0, 1, 2},
+            {8, 5, 6},
+            {8, 0, 9}
+    };
 
     ZeroMatrix z;
-    z.rotate(vect);
+    printMatrix(z.rotate(matrix));
 
     return 0;
+}
+
+void printMatrix (vector<vector<int>> matrix) {
+   for (vector<int> row : matrix) {
+      for (int number : row) {
+          cout << number << " ";
+      }
+      cout << "\n";
+   }
 }

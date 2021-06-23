@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/atremblay/AppData/Local/JetBrains/CLion2021.1/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /snap/clion/152/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/atremblay/AppData/Local/JetBrains/CLion2021.1/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /snap/clion/152/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms
+CMAKE_SOURCE_DIR = /home/adrien/CLionProjects/interview-prep/Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug
+CMAKE_BINARY_DIR = /home/adrien/CLionProjects/interview-prep/Algorithms/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Algorithms.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/Algorithms.dir/flags.make
 
 CMakeFiles/Algorithms.dir/main.cpp.o: CMakeFiles/Algorithms.dir/flags.make
 CMakeFiles/Algorithms.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms.dir/main.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/main.cpp.o -c /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrien/CLionProjects/interview-prep/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/main.cpp.o -c /home/adrien/CLionProjects/interview-prep/Algorithms/main.cpp
 
 CMakeFiles/Algorithms.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/main.cpp > CMakeFiles/Algorithms.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrien/CLionProjects/interview-prep/Algorithms/main.cpp > CMakeFiles/Algorithms.dir/main.cpp.i
 
 CMakeFiles/Algorithms.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/main.cpp -o CMakeFiles/Algorithms.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrien/CLionProjects/interview-prep/Algorithms/main.cpp -o CMakeFiles/Algorithms.dir/main.cpp.s
 
 CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o: CMakeFiles/Algorithms.dir/flags.make
 CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o: ../ZeroMatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o -c /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrien/CLionProjects/interview-prep/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o -c /home/adrien/CLionProjects/interview-prep/Algorithms/ZeroMatrix.cpp
 
 CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.cpp > CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrien/CLionProjects/interview-prep/Algorithms/ZeroMatrix.cpp > CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.i
 
 CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/ZeroMatrix.cpp -o CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrien/CLionProjects/interview-prep/Algorithms/ZeroMatrix.cpp -o CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.s
 
 # Object files for target Algorithms
 Algorithms_OBJECTS = \
@@ -110,15 +110,15 @@ Algorithms_OBJECTS = \
 # External object files for target Algorithms
 Algorithms_EXTERNAL_OBJECTS =
 
-Algorithms.exe: CMakeFiles/Algorithms.dir/main.cpp.o
-Algorithms.exe: CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o
-Algorithms.exe: CMakeFiles/Algorithms.dir/build.make
-Algorithms.exe: CMakeFiles/Algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Algorithms.exe"
+Algorithms: CMakeFiles/Algorithms.dir/main.cpp.o
+Algorithms: CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o
+Algorithms: CMakeFiles/Algorithms.dir/build.make
+Algorithms: CMakeFiles/Algorithms.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adrien/CLionProjects/interview-prep/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Algorithms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Algorithms.dir/build: Algorithms.exe
+CMakeFiles/Algorithms.dir/build: Algorithms
 
 .PHONY : CMakeFiles/Algorithms.dir/build
 
@@ -127,6 +127,6 @@ CMakeFiles/Algorithms.dir/clean:
 .PHONY : CMakeFiles/Algorithms.dir/clean
 
 CMakeFiles/Algorithms.dir/depend:
-	cd /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug /cygdrive/c/Users/atremblay/Documents/GitHub/interview-prep/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adrien/CLionProjects/interview-prep/Algorithms/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adrien/CLionProjects/interview-prep/Algorithms /home/adrien/CLionProjects/interview-prep/Algorithms /home/adrien/CLionProjects/interview-prep/Algorithms/cmake-build-debug /home/adrien/CLionProjects/interview-prep/Algorithms/cmake-build-debug /home/adrien/CLionProjects/interview-prep/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Algorithms.dir/depend
 

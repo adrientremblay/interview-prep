@@ -9,7 +9,7 @@ using namespace std;
 
 class ZeroMatrix {
     public:
-        int rotate(vector<vector<int>> vec);
+        vector<vector<int>> rotate(vector<vector<int>> vec);
 };
 
 

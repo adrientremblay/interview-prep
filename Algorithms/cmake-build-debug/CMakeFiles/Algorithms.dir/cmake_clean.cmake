@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "Algorithms.exe"
+  "Algorithms"
   "Algorithms.pdb"
   "CMakeFiles/Algorithms.dir/ZeroMatrix.cpp.o"
   "CMakeFiles/Algorithms.dir/main.cpp.o"
-  "libAlgorithms.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
