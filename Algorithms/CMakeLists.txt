@@ -15,7 +15,8 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 add_executable(Algorithms
-    zero_matrix_test.cpp)
+        zero_matrix/ZeroMatrix.cpp
+        zero_matrix/zero_matrix_test.cpp)
 
 target_link_libraries(
         Algorithms
@@ -23,4 +24,4 @@ target_link_libraries(
 )
 
 include(GoogleTest)
-gtest_discover_tests(Algorithms)
+gtest_discover_tests(Algorithms  gtest_main)
